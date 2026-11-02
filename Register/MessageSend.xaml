@@ -1,0 +1,14 @@
+﻿<Window x:Class="EmailSender.MessageSend"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmailSender"
+        mc:Ignorable="d"
+        Title="MessageSend" Height="450" Width="800">
+    <DockPanel>
+        <TextBlock Margin="10" DockPanel.Dock="Top" FontSize="20" HorizontalAlignment="Center">write Message</TextBlock>
+        <TextBox x:Name="MyMessage" Margin="10" Height="250" DockPanel.Dock="Top"></TextBox>
+        <Button  FontSize="20" FontWeight="Bold" Background="GreenYellow" Width="100" Height="100" Click="Send_Button">Send</Button>
+    </DockPanel>
+</Window>
